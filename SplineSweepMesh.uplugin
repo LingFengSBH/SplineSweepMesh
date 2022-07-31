@@ -1,0 +1,34 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "0.1",
+	"FriendlyName": "SplineSweepMesh",
+	"Description": "Create procedural mesh with two splines,use points in the first spline to sweep,the onther spline is used as path",
+	"Category": "Other",
+	"CreatedBy": "SunBoHeng",
+	"CreatedByURL": "https://space.bilibili.com/168173226?spm_id_from=333.1007.0.0",
+	"DocsURL": "https://docs.google.com/document/d/14VSYfDIL48kEqiLUkkqpnwEAjW062BZBvH70m6oPkDQ/edit?usp=sharing",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/f9b003691cbc48d385c564491cab3c25",
+	"SupportURL": "",
+	"EngineVersion": "4.26.0",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": true,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "SplineSweepMesh",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms": [
+				"Win64"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ProceduralMeshComponent",
+			"Enabled": true
+		}
+	]
+}
